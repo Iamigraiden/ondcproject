@@ -24,12 +24,12 @@ function Home() {
           {/* background img */}
           {/* brand images  */}
             <div className="container-lg top-content">
-              <div className='col-lg-9 col-xl-8 col-xxl-7 col-md-9 mx-auto'>
-                <h1 className='text-center main-head text-white display-2 fw-bold'>Power Your eCommerce Growth on <span>ONDC's Network and Beyond</span></h1>
-                </div>
-                <div className='col-xl-5 col-md-7 col-sm-9 col-11 mx-auto'>
-                <p className='lead  fw-li main-para text-center text-black mt-3 mb-2 mb-md-3'>Join 500+ Sellers Leveraging India's Open Digital Commerce Revolution. Dominate Amazon, Flipkart, Shopify & Every Marketplace That Matters.</p>
-                </div>
+              {/* <div className='col-lg-9 col-xl-8 col-xxl-7 col-md-9 mx-auto'> */}
+                <h1 className='text-center col-lg-9 col-xl-8 col-xxl-7 col-md-9 mx-auto main-head text-white display-2 fw-bold'>Power Your eCommerce Growth on <span>ONDC's Network and Beyond</span></h1>
+                {/* </div> */}
+                {/* <div className='col-xl-5 col-md-7 col-sm-9 col-11 mx-auto'> */}
+                <p className='lead  fw-li col-xl-5 col-md-7 col-sm-9 col-11 mx-auto main-para text-center text-black mt-3 mb-2 mb-md-3'>Join 500+ Sellers Leveraging India's Open Digital Commerce Revolution. Dominate Amazon, Flipkart, Shopify & Every Marketplace That Matters.</p>
+                {/* </div> */}
                <div className='text-center pt-2 demo-btn'>
                 <a href='#forma' className='text-uppercase btn rounded-pill text-white border-0 btn-black px-4 py-2'>request for demo</a>
                 </div>
