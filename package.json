@@ -1,7 +1,5 @@
 {
   "name": "newondc",
-  "proxy": "https://ondc.alyajewels.com/",
-  "homepage": "https://ondc.alyajewels.com/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
