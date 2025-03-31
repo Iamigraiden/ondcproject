@@ -1,0 +1,19 @@
+.form-comp{
+    background: #af80ff;
+    padding: 5rem 0;
+}
+.detail-form input::placeholder{
+    color: white;
+}
+/* .detail-form input{
+    width: 200px;;
+} */
+.detail-form input{
+    background: rgba(255, 255, 255, 0.356) !important;
+}
+@media screen and (max-width:768px) {
+    .form-comp{
+        background: #af80ff;
+        padding: 3rem 0;
+    }
+}

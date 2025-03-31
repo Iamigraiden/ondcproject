@@ -1,0 +1,44 @@
+[
+  {
+    "cate": "category 1",
+    "category": "ONDC & Marketplace Integration",
+    "services": [
+      "Account Setup & Compliance",
+      "ONDC Seller Registration",
+      "Amazon Seller Central",
+      "Flipkart Hub Onboarding",
+      "Multi-Channel Catalog Sync",
+      "Bulk Uploads",
+      "ONDC-Platform Syncing",
+      "GST/KYC Automation"
+    ]
+  },
+  {
+    "cate": "category 2",
+    "category": "Product & Revenue Optimization",
+    "services": [
+      "Listing Warfare",
+      "A+ Content",
+      "SEO Titles",
+      "Competitor-Crushing Visuals",
+      "Pricing Dominance",
+      "Dynamic Repricing",
+      "Lightning Deals",
+      "Buy Box Strategy"
+    ]
+  },
+  {
+    "cate": "category 3",
+    "category": "Growth Hacking",
+    "services": [
+      "Ads That Convert",
+      "Amazon Sponsored Brands",
+      "Flipkart Smart ROI",
+      "Shopify Google Ads",
+      "Customer Empire Building",
+      "Review Management",
+      "Loyalty Programs",
+      "Churn Prediction"
+    ]
+  }
+]

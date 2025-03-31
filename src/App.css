@@ -1,0 +1,85 @@
+@font-face {
+  font-family: myfont;
+  src: url(/assets/fonts/ProximaNova-Regular.ttf);
+}
+@font-face {
+  font-family: myfontbold;
+  src: url(/assets/fonts/ProximaNova-Bold.ttf);
+}
+@font-face {
+  font-family: myfontblack;
+  src: url(/assets/fonts/ProximaNova-Black.ttf);
+}
+@font-face {
+  font-family: myfonteb;
+  src: url(/assets/fonts/ProximaNova-Extrabld.ttf);
+}
+@font-face {
+  font-family: myfontsb;
+  src: url(/assets/fonts/ProximaNova-Semibold.ttf);
+}
+@font-face {
+  font-family: myfontth;
+  src: url(/assets/fonts/ProximaNovaT-Thin.ttf);
+}
+@font-face {
+  font-family: myfontli;
+  src: url(/assets/fonts/ProximaNova-Light.ttf);
+}
+
+
+:root {
+  font-family: myfont !important;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+body {
+   overflow-x: hidden !important;
+   font-family:myfont !important;
+}
+a{
+  color: unset !important;
+  text-decoration: none !important;
+}
+ ul{
+  list-style: none !important;
+ }
+ .fw-li{
+  font-family: myfontli !important;
+ }
+ .fw-th{
+  font-family: myfontth !important;
+ }
+ .fw-sb{
+  font-family: myfontsb !important;
+ }
+ .fw-eb{
+  font-family: myfontth !important;
+ }
+ .fw-black{ 
+  font-family: myfontblack !important;
+ }
+ .fw-bold{
+  font-family: myfontbold !important;
+ }
+ .btn-black{
+  background-color: black !important;
+    color:white !important;
+ }
+ .colora{
+  color: #a54094;
+ }
+ .colorb{
+  color: #464646;
+ }
+ .colorc{
+  color: #5c1d76;
+ }
+ @media (max-width: 667px) {
+   body{
+    overflow-x: hidden !important;
+   }
+}

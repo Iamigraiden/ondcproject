@@ -1,0 +1,116 @@
+/* error page css  */
+.error-main{
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    background-color: rgb(40, 39, 39);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.e-icon{
+    transition: transform .3s;
+}
+.error-btn:hover .e-icon{
+    transform: translateX(-10px) scale(1.2);
+
+}
+/* home css start  */
+.homepage-top{
+    padding-top: 5rem;
+    background: #68c2f3;
+}
+.home-back-img{
+    position: relative;
+}
+.back-image{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.top-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.main-head{
+    line-height: .8;
+}
+.main-head span{
+    color: #a54094;
+}
+.main-para{
+    line-height: 1.2;
+}
+.fliplogo{
+    position: absolute;
+    top:37%;
+    left: 18%;
+}
+.amajlogo{
+    position: absolute;
+    top:37%;
+    right: 18%;
+}
+.mynlogo{
+    position: absolute;
+    top:55%;
+    left: 10%;
+}
+.nyklogo{
+        position: absolute;
+        top:55%;
+        right: 10%;
+}
+.anime{
+    animation: logosanime 1s infinite ease-in-out alternate; 
+    z-index: 1;
+}
+.userdata{
+    padding-top: 5rem;
+}
+@keyframes logosanime {
+    from { transform: scale(0.8); }
+    to { transform: scale(0.9); }
+}
+@media screen and (max-width:767px) and (min-width:519px) {
+    .top-content {
+        top: 100px;
+}}
+@media screen and (max-width:528px){
+    .top-content {
+        top: 40px;
+}}
+@media screen and (max-width:667px) {
+    .main-para{
+    font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:440px) {
+    .main-head{
+      font-size: 2.4rem;
+    }
+    }
+@media screen and (max-width: 420px) {
+    .top-content {
+        top: 20px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .top-content {
+        top: 10px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .main-head{
+        font-size: 2.1rem;
+      }
+    .main-para {
+        font-size: 1rem;
+    }
+}
